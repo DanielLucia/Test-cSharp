@@ -3,6 +3,14 @@
 
 public partial class MainWindow
 {
+	private global::Gtk.VBox vbox1;
+
+	private global::Gtk.ScrolledWindow GtkScrolledWindow;
+
+	private global::Gtk.TextView textview2;
+
+	private global::Gtk.Button btnConsultar;
+
 	protected virtual void Build()
 	{
 		global::Stetic.Gui.Initialize(this);
@@ -10,13 +18,42 @@ public partial class MainWindow
 		this.Name = "MainWindow";
 		this.Title = global::Mono.Unix.Catalog.GetString("MainWindow");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
+		this.DefaultWidth = 800;
+		this.DefaultHeight = 600;
+		// Container child MainWindow.Gtk.Container+ContainerChild
+		this.vbox1 = new global::Gtk.VBox();
+		this.vbox1.Name = "vbox1";
+		this.vbox1.Spacing = 6;
+		// Container child vbox1.Gtk.Box+BoxChild
+		this.GtkScrolledWindow = new global::Gtk.ScrolledWindow();
+		this.GtkScrolledWindow.Name = "GtkScrolledWindow";
+		this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));
+		// Container child GtkScrolledWindow.Gtk.Container+ContainerChild
+		this.textview2 = new global::Gtk.TextView();
+		this.textview2.CanFocus = true;
+		this.textview2.Name = "textview2";
+		this.GtkScrolledWindow.Add(this.textview2);
+		this.vbox1.Add(this.GtkScrolledWindow);
+		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.GtkScrolledWindow]));
+		w2.Position = 0;
+		// Container child vbox1.Gtk.Box+BoxChild
+		this.btnConsultar = new global::Gtk.Button();
+		this.btnConsultar.CanFocus = true;
+		this.btnConsultar.Name = "btnConsultar";
+		this.btnConsultar.UseUnderline = true;
+		this.btnConsultar.Label = global::Mono.Unix.Catalog.GetString("Consultar");
+		this.vbox1.Add(this.btnConsultar);
+		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.btnConsultar]));
+		w3.Position = 1;
+		w3.Expand = false;
+		w3.Fill = false;
+		this.Add(this.vbox1);
 		if ((this.Child != null))
 		{
 			this.Child.ShowAll();
 		}
-		this.DefaultWidth = 400;
-		this.DefaultHeight = 300;
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
+		this.btnConsultar.Clicked += new global::System.EventHandler(this.OnBtnConsultarClicked);
 	}
 }

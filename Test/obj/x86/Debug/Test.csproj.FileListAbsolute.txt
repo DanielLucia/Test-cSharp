@@ -4,3 +4,6 @@
 /home/daniellucia/Projects/Test/Test/obj/x86/Debug/Test.csproj.CoreCompileInputs.cache
 /home/daniellucia/Projects/Test/Test/obj/x86/Debug/Test.exe
 /home/daniellucia/Projects/Test/Test/obj/x86/Debug/Test.pdb
+/home/daniellucia/Projects/Test/Test/bin/Debug/Newtonsoft.Json.dll
+/home/daniellucia/Projects/Test/Test/bin/Debug/Newtonsoft.Json.xml
+/home/daniellucia/Projects/Test/Test/obj/x86/Debug/Test.csproj.CopyComplete
