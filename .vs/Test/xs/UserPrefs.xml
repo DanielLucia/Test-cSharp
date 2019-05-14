@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Test/MainWindow.cs">
     <Files>
-      <File FileName="Test/Program.cs" Line="7" Column="6" />
-      <File FileName="Test/Objects.cs" Line="4" Column="22" />
-      <File FileName="Test/MainWindow.cs" Line="13" Column="17" />
+      <File FileName="Test/MainWindow.cs" Line="66" Column="17" />
+      <File FileName="Test/Objects.cs" Line="12" Column="1" />
+      <File FileName="Test/Program.cs" Line="11" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

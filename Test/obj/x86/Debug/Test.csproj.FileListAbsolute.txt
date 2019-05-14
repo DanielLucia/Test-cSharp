@@ -7,3 +7,12 @@
 /home/daniellucia/Projects/Test/Test/bin/Debug/Newtonsoft.Json.dll
 /home/daniellucia/Projects/Test/Test/bin/Debug/Newtonsoft.Json.xml
 /home/daniellucia/Projects/Test/Test/obj/x86/Debug/Test.csproj.CopyComplete
+/home/daniellucia/Projects/Test-cSharp/Test/bin/Debug/Test.exe
+/home/daniellucia/Projects/Test-cSharp/Test/bin/Debug/Test.pdb
+/home/daniellucia/Projects/Test-cSharp/Test/bin/Debug/Newtonsoft.Json.dll
+/home/daniellucia/Projects/Test-cSharp/Test/bin/Debug/Newtonsoft.Json.xml
+/home/daniellucia/Projects/Test-cSharp/Test/obj/x86/Debug/Test.csprojAssemblyReference.cache
+/home/daniellucia/Projects/Test-cSharp/Test/obj/x86/Debug/Test.csproj.CoreCompileInputs.cache
+/home/daniellucia/Projects/Test-cSharp/Test/obj/x86/Debug/Test.csproj.CopyComplete
+/home/daniellucia/Projects/Test-cSharp/Test/obj/x86/Debug/Test.exe
+/home/daniellucia/Projects/Test-cSharp/Test/obj/x86/Debug/Test.pdb
